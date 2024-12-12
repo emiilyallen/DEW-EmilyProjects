@@ -1,0 +1,10 @@
+<form action="">
+      <label htmlFor="nombre">Nombre Completo: </label>
+      <input type="text" name='nombre' value={nombre} id='nombre' onChange={(e)=>{setNombre(e.target.value)}}/>   {/*cuando cambia el nombre se muestra el cambio con el setNombre*/}
+
+
+      <label htmlFor="mayor-edad">Eres mayor de edad?</label>
+      <input type="checkbox" name='mayor-edad' checked={esMyorDeEdad} id='nombre' onChange={(e)=>{setEsMyorDeEdad(e.target.checked)}}/> 
+
+      {/* <input type="checkbox" name="mayor-edad" id="mayor-edad" checked={unaPersona.checked}/> */} 
+</form>
